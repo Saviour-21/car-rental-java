@@ -40,15 +40,16 @@ public class signup extends HttpServlet {
 //            out.println(" <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css\">");
 //            out.println("  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>");
 //            out.println("<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js\"></script>");
-            out.println("<body>");
-            out.println("<h1 style='margin-left:auto;margin-right:auto;'>Your Account is created</h1>");
-            out.println("<center>");
-            out.println("<br>");
-            out.println("<br>");
-            out.println("<a href=\"login.html\"><button class='btn btn-primary'>Log In</button></a>");
-            out.println("</center>");
-            out.println("</body>");
-            out.println("</center>");  
+//            out.println("<body>");
+//            out.println("<h1 style='margin-left:auto;margin-right:auto;'>Your Account is created</h1>");
+//            out.println("<center>");
+//            out.println("<br>");
+//            out.println("<br>");
+//            out.println("<a href=\"login.html\"><button class='btn btn-primary'>Log In</button></a>");
+//            out.println("</center>");
+//            out.println("</body>");
+//            out.println("</center>");  
+res.sendRedirect("index.html");
             }
             else{
             out.println("<html>");

@@ -20,6 +20,26 @@
         <servlet-name>logout</servlet-name>
         <servlet-class>logout</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>history</servlet-name>
+        <servlet-class>history</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booking</servlet-name>
+        <servlet-class>booking</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>profile</servlet-name>
+        <servlet-class>profile</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>edit</servlet-name>
+        <servlet-class>edit</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>delete</servlet-name>
+        <servlet-class>delete</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>signup</servlet-name>
         <url-pattern>/signup</url-pattern>
@@ -39,6 +59,26 @@
     <servlet-mapping>
         <servlet-name>logout</servlet-name>
         <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>history</servlet-name>
+        <url-pattern>/history</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booking</servlet-name>
+        <url-pattern>/booking</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>profile</servlet-name>
+        <url-pattern>/profile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>edit</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>delete</servlet-name>
+        <url-pattern>/delete</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -28,7 +28,6 @@ public class login extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 //        String id=req.getParameter("eid");
         PrintWriter out=res.getWriter();
-        
         try
         {   String uname = req.getParameter("username");
             String cpass = req.getParameter("password");
